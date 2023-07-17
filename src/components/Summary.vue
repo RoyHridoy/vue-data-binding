@@ -6,7 +6,7 @@ import { summary } from '../data/data';
     <section class="summary bg-theme section-padding text-center">
         <div class="container">
             <div class="row">
-                <div class="col-md-3" v-for="item of summary">
+                <div class="col-lg-3 col-md-6" v-for="item of summary">
                     <div class="summary-content">
                         <i :class="item.icon"></i>
                         {{ item.description }}

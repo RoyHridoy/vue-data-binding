@@ -13,7 +13,7 @@ import { pricing } from '../data/data';
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4" v-for="price of pricing">
+                <div class="col-lg-4" v-for="price of pricing">
                     <div class="single-price-table" :class="price.class">
                         <div class="plan-info">
                             <h2>{{ price.name }}<span>{{ price.price }}</span></h2>

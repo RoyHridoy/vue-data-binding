@@ -3,21 +3,26 @@
     <header class="header-area">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-9">
                     <h1 class="logo"><a href="">data<span>binding</span></a></h1>
                 </div>
-                <div class="col-md-9">
-                    <div class="menu">
-                        <ul>
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#feature">feature</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#testimonials">testimonials</a></li>
-                            <li><a href="#pricing">pricing</a></li>
-                            <li><a href="#blog">blog</a></li>
-                            <li><a href="#contact">contact</a></li>
-                        </ul>
-                    </div>
+                <div class="col-md-9 col-sm-3">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="menu">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#one">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <ul class="collapse navbar-collapse" id="one">
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#feature">feature</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#testimonials">testimonials</a></li>
+                                <li><a href="#pricing">pricing</a></li>
+                                <li><a href="#blog">blog</a></li>
+                                <li><a href="#contact">contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
                 </div>
             </div>
         </div>
@@ -52,15 +57,15 @@ h1.logo {
     color: #454545;
 }
 
-.menu ul {
+.navbar ul {
     float: right;
 }
 
-.menu ul li {
+.navbar ul li {
     display: inline-block;
 }
 
-.menu ul li a {
+.navbar ul li a {
     display: block;
     text-transform: uppercase;
     color: #454545;
@@ -71,24 +76,24 @@ h1.logo {
     letter-spacing: 2px;
 }
 
-.menu ul li:last-child a {
+.navbar ul li:last-child a {
     padding-right: 0;
 }
 
-.menu ul li:last-child a:hover:after {
+.navbar ul li:last-child a:hover:after {
     right: 0;
     width: calc(100% - 20px);
 }
 
-.menu ul li:first-child a:before {
+.navbar ul li:first-child a:before {
     width: 0px;
 }
 
-.menu ul li a:hover {
+.navbar ul li a:hover {
     color: #7F11F2;
 }
 
-.menu ul li a:before {
+.navbar ul li a:before {
     position: absolute;
     content: "";
     width: 1px;
@@ -98,7 +103,7 @@ h1.logo {
     left: 0;
 }
 
-.menu ul li a:after {
+.navbar ul li a:after {
     width: 0%;
     content: "";
     height: 1px;
@@ -109,8 +114,17 @@ h1.logo {
     transition: 0.3s;
 }
 
-.menu ul li a:hover:after {
+.navbar ul li a:hover:after {
     width: calc(100% - 40px);
     right: 20px;
+}
+
+.navbar {
+    display: inherit;
+    padding: 0px !important;
+}
+
+button.navbar-toggler {
+    float: right;
 }
 </style>

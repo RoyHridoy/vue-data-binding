@@ -7,10 +7,10 @@ import { about, aboutDescription } from '../data/data';
     <section class="section-padding" id="about">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <img :src="aboutImg" alt="" class="img-responsive">
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <div class="section-heading">
                         <h2>who <span>we</span> are</h2>
                         <p>{{ aboutDescription }}</p>

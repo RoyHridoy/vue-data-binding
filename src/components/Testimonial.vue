@@ -13,7 +13,7 @@ import { testimonials } from '../data/data';
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 col-sm-6" v-for="item of testimonials">
+                <div class="col-lg-4" v-for="item of testimonials">
                     <div class="single-testimonial">
                         <span class="quote">
                             <i class="bi-quote"></i>

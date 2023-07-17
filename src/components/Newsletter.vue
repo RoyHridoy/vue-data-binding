@@ -6,7 +6,7 @@ import newsletterBG from '../assets/images/newsletter.jpg';
     <section class="section-padding overlay fixed-bg" :style="{ backgroundImage: `url(${newsletterBG})` }" id="newsletter">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 offset-2 text-center">
+                <div class="col-lg-8 offset-lg-2 text-center">
                     <div class="section-heading">
                         <h2>get <span> discount</span></h2>
                     </div>

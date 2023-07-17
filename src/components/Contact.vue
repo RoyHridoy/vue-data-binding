@@ -7,7 +7,7 @@ const { address, phone: { primary: primaryPhone, secondary: secondaryPhone }, em
     <section class="section-padding" id="contact">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-sm-5">
+                <div class="col-lg-4">
                     <div class="section-heading">
                         <h2>find <span>us</span></h2>
                     </div>
@@ -29,7 +29,7 @@ const { address, phone: { primary: primaryPhone, secondary: secondaryPhone }, em
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-8 col-sm-7">
+                <div class="col-lg-8">
                     <div class="contact-form">
                         <form id="contact-form" action="#" method="POST">
                             <div class="row">

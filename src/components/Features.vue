@@ -11,7 +11,7 @@ import { features } from '../data/data';
                         <h2>product <span>features</span></h2>
                     </div>
                 </div>
-                <div class="col-md-4" v-for="item in features">
+                <div class="col-md-6 col-lg-4" v-for="item in features">
                     <div class="single-feature">
                         <i :class="item.icon"></i>
                         <h3>{{ item.title }}</h3>

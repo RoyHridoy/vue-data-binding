@@ -11,7 +11,7 @@ import { blog } from '../data/data';
                         <h2>News & <span>Announcements</span></h2>
                     </div>
                 </div>
-                <div class="col-md-4" v-for="post of   blog  ">
+                <div class="col-lg-4" v-for="post of   blog  ">
                     <div class="single-blog">
                         <div class="blog-bg" :style="{ backgroundImage: `url(${post.image})` }">
                             <div class="blog-date">
